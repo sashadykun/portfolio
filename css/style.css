@@ -658,7 +658,7 @@ h2.menu-item:after {
 /* --- Inline Menu --- */
 
 .inline-menu-container {
-    background: #F1F3F6;
+    background: #3F729B;
     position: fixed;
     height: 40px;
     width: 69%;
@@ -720,12 +720,12 @@ h2.menu-item:after {
     line-height: 40px;
     margin-top: -5px;
     padding: 0 15px;
-    color: #666;
+    color: white;
 }
 
 .inline-menu li.active,
 .inline-menu li:hover {
-    color: #333;
+    color: black;
 }
 
 .inline-menu li.active {
@@ -795,7 +795,8 @@ h2.menu-item:after {
 }
 
 .close-pop {
-    background-color: #F1F3F6;
+    background-color: #3F729B;
+    color: white;
     cursor: pointer;
     line-height: 40px;
     height: 40px;
@@ -891,7 +892,7 @@ h2.menu-item:after {
 .block-title {
     font-size: 24px;
     text-transform: uppercase;
-    color: #333;
+    color: #3F729B;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 30px;
@@ -1016,7 +1017,7 @@ h2.menu-item:after {
 
 .social li i {
     line-height: 32px;
-    font-size: 12px;
+    font-size: 21px;
 }
 
 .social a:hover {
@@ -1462,6 +1463,7 @@ h4.package {
 
 .filters ul li {
     font-weight: 500;
+    color: #3F729B;
     display: inline-block;
     margin-left: 15px;
     padding: 2px 10px;
