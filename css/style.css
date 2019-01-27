@@ -1019,7 +1019,30 @@ h2.menu-item:after {
     line-height: 32px;
     font-size: 21px;
 }
+/* .skills{
+    position: relative;
+    padding: .5rem;
 
+} */
+.skills img {
+    max-width: 3rem;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.skills i {
+    font-size: 3rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7rem;
+    text-align: center;
+}
 .social a:hover {
     background-color: rgba(255, 255, 255, 0.7);
     border: 2px solid transparent;
