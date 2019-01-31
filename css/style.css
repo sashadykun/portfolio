@@ -46,6 +46,10 @@ body {
     overflow-x: hidden;
 }
 
+/* .resume img {
+    padding-top: 20%;
+}  */
+
 a {
     transition: all 0.3s;
 }
@@ -157,7 +161,7 @@ a:not([href]):not([tabindex]) {
     transition: all .3s;
     position: relative;
     color: #FFF;
-    background-color: #333;
+    background-color: #3F729B;
     z-index: 20;
     letter-spacing: 2px;
     overflow: hidden;
@@ -1095,6 +1099,11 @@ h2.menu-item:after {
     font-size: 0.7rem;
     text-align: center;
 }
+
+b,strong{
+    font-weight: bold;
+}
+
 .social a:hover {
     background-color: rgba(255, 255, 255, 0.7);
     border: 2px solid transparent;
@@ -1472,6 +1481,7 @@ h4.package {
 
 .btn-email {
     position: relative;
+    
 }
 
 .btn-email:before {
