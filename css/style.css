@@ -1045,12 +1045,43 @@ h2.menu-item:after {
     align-items: center;
 }
 
+.contacts img {
+    max-width: 3.7rem;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts p:hover {
+    /* background-color: rgba(78, 170, 165, 0.7); */
+    /* border: 2px solid green; */
+    color: rgb(5, 54, 20);
+    /* font-size: 1.5rem; */
+}
+
+.contacts i {
+    font-size: 3.6rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgb(13, 131, 228);
+    
+}
+
 #javs img {
     max-width: 2.6rem;
     margin: 0;
     justify-content: center;
     align-items: center;
 }
+
 .skills i {
     font-size: 3rem;
     margin: 0;
