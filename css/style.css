@@ -47,6 +47,7 @@ body {
 }
 
 .resume img{
+    border-left: inset #888888;
     box-shadow: 1px 4px 5px #888888;
     width: 99%;
     
