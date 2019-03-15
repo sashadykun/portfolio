@@ -2231,6 +2231,13 @@ h4.package {
     margin-top: 50px;
     width: 100%;
 }
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
 
 /*-------------------------------------------------------------------
 
